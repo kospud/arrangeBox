@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="testControls">
+        <select id="typeOfSet">
+            <option value="0">Еда из мемов</option>
+            <option value="1">Серьезная подборка</option>
+        </select>
+        часть значений в "Выбранное":
+        <input type="checkbox" name="" id="typeOfList">
+        <button id="setTypeOfSet">Загрузить список</button>
+        <button id="addvalue">Добавить значение в список</button>
+        <button id="state">Состояние элемента</button>
+        <button id="resetBtn">Сбросить состояние</button>
+    </div>
+
+    <div id="container" class="arrangeBoxContainer"></div>
+    <button id="newRandAB">Создать arrangeBox со случайными значениями</button>
+    <div id="randArrangeBoxes" class="arrangeBoxContainer"></div>
+    <script src="arrangeBox.js"></script>
+    <script src="test.js"></script>
+</body>
+
+</html>
